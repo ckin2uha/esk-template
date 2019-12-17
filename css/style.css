@@ -577,7 +577,6 @@ svg {
 @media screen and (max-width: 768px) {
   .product-content .product-content-img {
     width: 100%;
-    height: auto;
     margin-bottom: 5vh;
   }
 }
