@@ -175,7 +175,7 @@ body main .prev-slaid {
 body main .prev-slaid img {
   margin-right: -150px;
   width: 30%;
-  border: 5px solid #fff;
+  border: 3px solid #fff;
   -webkit-transform: perspective(1000px) rotateY(30deg) scale(0.8);
           transform: perspective(1000px) rotateY(30deg) scale(0.8);
   -webkit-box-shadow: -10px -1px 5px 0px rgba(50, 50, 50, 0.75);
@@ -449,5 +449,9 @@ legend {
   color: white;
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px);
+}
+
+.flipster__item img {
+  width: 450px;
 }
 /*# sourceMappingURL=style.css.map */
