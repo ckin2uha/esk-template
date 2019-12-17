@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAIU;;AANxB,AAGI,CAHH,CAGG,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CAAG;;AAJtB,AAKI,CALH,CAKG,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CAAG",
+    "sources": [
+        "fix.sass"
+    ],
+    "names": [],
+    "file": "fix.css"
+}
