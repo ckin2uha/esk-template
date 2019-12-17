@@ -86,6 +86,7 @@ body
                 margin-left: -100px
             img
                 margin-right: -150px
+                max-height: 325px
                 width: 30%
                 border: 3px solid #fff
                 transform: perspective(1000px) rotateY(30deg) scale(0.8)
@@ -95,7 +96,6 @@ body
                 @media screen and ( max-width: 768px  )
                     margin-right: -100px
                     width: 35%
-                    height: auto
                 &:first-child
                     border-top-left-radius: 3em
                 &:last-child
@@ -295,8 +295,7 @@ svg
         margin: auto
         img
             width: 100%
-            height: auto
-            display: block
+            max-height: 600px
         @media screen and ( max-width: 768px )
             width: 100%
             margin-bottom: 5vh
