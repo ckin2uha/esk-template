@@ -189,6 +189,7 @@ body main .prev-slaid img {
   body main .prev-slaid img {
     margin-right: -100px;
     width: 35%;
+    height: auto;
   }
 }
 
@@ -213,6 +214,7 @@ body main .prev-slaid img:hover {
 @media screen and (max-width: 450px) {
   body main .prev-slaid img {
     width: 80%;
+    height: auto;
     -webkit-box-shadow: 0 0 0 0;
             box-shadow: 0 0 0 0;
     border: none;
@@ -568,12 +570,14 @@ svg {
 
 .product-content .product-content-img img {
   width: 100%;
+  height: auto;
   display: block;
 }
 
 @media screen and (max-width: 768px) {
   .product-content .product-content-img {
     width: 100%;
+    height: auto;
     margin-bottom: 5vh;
   }
 }
