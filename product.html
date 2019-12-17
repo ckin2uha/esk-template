@@ -36,24 +36,37 @@
         </nav>
     </header>
     <main>
-            <div id="carousel">
-                <ul class="flip-items">
-                    <li><img height="298px" width="450px" src="./prodimg/sl_1.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_2.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_3.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_4.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_5.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_6.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_7.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_8.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_9.jpeg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_10.jpeg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_11.jpeg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_12.jpeg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_13.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_14.jpg" alt=""></li>
-                    <li><img height="298px" width="450px" src="./prodimg/sl_15.jpeg" alt=""></li>
-                </ul>
+        <div id="carousel" class="vh">
+            <ul class="flip-items">
+                <li><img height="298px" width="450px" src="./prodimg/sl_1.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_2.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_3.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_4.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_5.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_6.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_7.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_8.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_9.jpeg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_10.jpeg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_11.jpeg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_12.jpeg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_13.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_14.jpg" alt=""></li>
+                <li><img height="298px" width="450px" src="./prodimg/sl_15.jpeg" alt=""></li>
+            </ul>
+        </div>
+        <div class="product-content">
+            <div class="product-content-text">
+                <h2>О продукции</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eos excepturi dignissimos laboriosam illo totam reiciendis sunt officia commodi qui repellat voluptatum ad rem exercitationem dolores, maiores vitae dolorem autem soluta ex fugiat perferendis mollitia minus. Beatae incidunt voluptates cum cumque accusamus at illum a voluptatibus. Possimus, omnis! Blanditiis, voluptatum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis vel deserunt labore placeat atque cupiditate, voluptatum cumque beatae corrupti, quibusdam est unde laboriosam voluptas laborum dolorem nihil ipsa exercitationem maiores sit omnis repudiandae? Voluptates possimus rem veniam pariatur necessitatibus, non laboriosam ducimus ab laborum! Nobis in natus dolores non omnis doloremque voluptatem veniam ipsum consequuntur vel ut sed magnam dicta, nemo necessitatibus asperiores aliquam iusto rem, molestiae fugit quos animi inventore optio? Nulla cupiditate et eaque harum consequuntur quis iure officiis placeat veritatis nobis deserunt cum magnam delectus corrupti, recusandae omnis non tempora temporibus qui! Dolorem eveniet nostrum non eligendi.</p>
+                <div class="group-btn">
+                    <button class="btn-form">Скачать каталог</button class="btn-form">
+                    <button class="btn-form">Остатки на складе</button>
+                </div>
+            </div>
+            <div class="product-content-img">
+                <img src="https://ckin2uha.github.io/esk/img/prod-main-jpg.jpg" alt="">
+            </div>
         </div>
     </main>
     <footer>
@@ -70,6 +83,7 @@
     <script>
         $(document).ready(function(){
             $("#carousel").flipster({
+                buttons: true
             });
         });
     </script>

@@ -104,6 +104,17 @@ body
                     transition: .4s
                     transform: scale(1)
                     box-shadow: -10px -1px 5px 0px rgba(50, 50, 50, 0.0)
+                @media screen and ( max-width: 450px  )
+                        width: 80%
+                        box-shadow: 0 0 0 0
+                        border: none
+                        transform: none
+                        &:first-child
+                            width: 0%
+                        &:last-child
+                            width: 0%
+
+                    
         .main-about-company
             margin-top: 3vh
             display: flex
@@ -233,6 +244,32 @@ legend
         color: white;
         transform: translateY(-4px)
 //product.html
+.vh
+    margin-top: 3vh
 .flipster__item 
     img
         width: 450px
+svg
+    color: #ffffff
+    opacity: 1
+.product-content
+    margin-top: 3vh
+    display: flex
+    justify-content: space-between
+    padding: 1em
+    .product-content-text
+        width: 48%
+        text-align: justify
+        display: flex
+        flex-direction: column
+        .group-btn
+            margin-top: auto
+            display: flex
+            justify-content: space-around
+            button
+                padding-left: 1.5em
+                padding-right: 1.5em
+    .product-content-img
+        width: 48%
+        img
+            width: 100%

@@ -210,6 +210,23 @@ body main .prev-slaid img:hover {
           box-shadow: -10px -1px 5px 0px rgba(50, 50, 50, 0);
 }
 
+@media screen and (max-width: 450px) {
+  body main .prev-slaid img {
+    width: 80%;
+    -webkit-box-shadow: 0 0 0 0;
+            box-shadow: 0 0 0 0;
+    border: none;
+    -webkit-transform: none;
+            transform: none;
+  }
+  body main .prev-slaid img:first-child {
+    width: 0%;
+  }
+  body main .prev-slaid img:last-child {
+    width: 0%;
+  }
+}
+
 body main .main-about-company {
   margin-top: 3vh;
   display: -webkit-box;
@@ -451,7 +468,61 @@ legend {
           transform: translateY(-4px);
 }
 
+.vh {
+  margin-top: 3vh;
+}
+
 .flipster__item img {
   width: 450px;
+}
+
+svg {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.product-content {
+  margin-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+}
+
+.product-content .product-content-text {
+  width: 48%;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product-content .product-content-text .group-btn {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.product-content .product-content-text .group-btn button {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.product-content .product-content-img {
+  width: 48%;
+}
+
+.product-content .product-content-img img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
