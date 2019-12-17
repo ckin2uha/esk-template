@@ -565,7 +565,6 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
 }
 
 .product-content .product-content-img img {
