@@ -76,6 +76,7 @@ body
                             transform: translateY(-4px)
     main
         flex: 1 0 auto
+        margin: 0 auto
         .prev-slaid
             display: flex
             justify-content: center
@@ -183,3 +184,51 @@ body
             @media screen and ( max-width: 425px )
                 font-size: 1em
                 width: 100%
+// application
+form
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: center
+.form-section
+    display: flex
+    flex-direction: column
+    text-align: center
+    max-width: 600px
+    justify-content: center
+    p
+        display: flex
+        max-width: 600px
+        justify-content: space-around
+        label
+            text-align: left
+            width: 100px
+    input
+        margin-left: 1rem
+legend
+    margin: 4vh 1vw
+.btn-form
+    text-decoration: none;
+    outline: none;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: none
+    &:hover
+        background: #004f9b;
+        box-shadow: 0 15px 20px #004f9b66;
+        color: white;
+        transform: translateY(-4px)
