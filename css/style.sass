@@ -252,24 +252,47 @@ legend
 svg
     color: #ffffff
     opacity: 1
+.title-product-content
+    width: 98%
+    display: none
+    @media screen and ( max-width: 768px )
+        display: block
 .product-content
     margin-top: 3vh
     display: flex
     justify-content: space-between
+    flex-wrap: wrap
     padding: 1em
     .product-content-text
         width: 48%
         text-align: justify
         display: flex
         flex-direction: column
+        @media screen and ( max-width: 768px )
+            width: 100%
         .group-btn
             margin-top: auto
             display: flex
             justify-content: space-around
+            flex-wrap: wrap
             button
                 padding-left: 1.5em
                 padding-right: 1.5em
+                @media screen and ( max-width: 425px )
+                    button
+                        width: 100%       
+    @media screen and ( max-width: 768px  )
+        flex-direction: column-reverse
     .product-content-img
         width: 48%
+        display: flex
+        margin: auto
         img
             width: 100%
+            display: block
+        @media screen and ( max-width: 768px )
+            width: 100%
+.title-hid
+    display: block
+    @media screen and ( max-width: 768px )
+        display: none
