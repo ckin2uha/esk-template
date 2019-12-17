@@ -483,12 +483,12 @@ svg {
 
 .title-product-content {
   width: 98%;
-  display: none;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 768px) {
   .title-product-content {
-    display: block;
+    visibility: visible;
     margin-top: 3vh;
   }
 }
@@ -576,12 +576,12 @@ svg {
 }
 
 .title-hid {
-  display: block;
+  visibility: visible;
 }
 
 @media screen and (max-width: 768px) {
   .title-hid {
-    display: none;
+    visibility: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */
