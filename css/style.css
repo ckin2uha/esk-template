@@ -317,8 +317,13 @@ body main .sert .sert-obj {
   }
 }
 
+body main .sert .sert-obj a {
+  width: 100%;
+  display: block;
+}
+
 body main .sert .sert-obj img {
-  width: 30%;
+  width: 95%;
 }
 
 @media screen and (max-width: 425px) {
