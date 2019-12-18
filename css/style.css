@@ -31,7 +31,7 @@ body {
   height: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  background-color: #e1e1e166;
+  background-color: #dfdfdf;
 }
 
 body header {
@@ -132,9 +132,9 @@ body header .main-nav ul li a {
   letter-spacing: 2px;
   font-weight: 600;
   color: #524f4e;
-  background: white;
-  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  background: dfdfdf;
+  -webkit-box-shadow: 0 8px 15px #00000059;
+          box-shadow: 0 8px 15px #00000059;
   -webkit-transition: .3s;
   transition: .3s;
 }
