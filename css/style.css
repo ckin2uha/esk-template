@@ -577,6 +577,7 @@ svg {
 }
 
 .title-hid {
+  padding-bottom: 2.5vh;
   visibility: visible;
 }
 
