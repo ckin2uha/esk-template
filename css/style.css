@@ -243,6 +243,10 @@ body main .main-about-company .main-about-company-text {
   text-align: justify;
 }
 
+body main .main-about-company .main-about-company-text h2 {
+  padding-bottom: 3vh;
+}
+
 @media screen and (max-width: 768px) {
   body main .main-about-company .main-about-company-text {
     width: 95%;
@@ -474,7 +478,28 @@ legend {
 }
 
 .flipster__item img {
+  margin-top: 4vh;
   width: 450px;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0px 0px 20px 6px rgba(50, 50, 50, 0.75);
+          box-shadow: 0px 0px 20px 6px rgba(50, 50, 50, 0.75);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.flipster__item img:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 9999999999;
+}
+
+@media screen and (max-width: 425px) {
+  .flipster__item img:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 svg {
