@@ -267,6 +267,9 @@ body main .main-about-company .main-about-company-card {
     margin-top: 3vh;
     width: 95%;
   }
+  body main .main-about-company .main-about-company-card h2 {
+    padding-bottom: 3vh;
+  }
 }
 
 body main .main-about-company .main-about-company-card .main-card {
