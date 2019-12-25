@@ -77,6 +77,8 @@ body
     main
         flex: 1 0 auto
         margin: 0 auto
+        @media screen and ( max-width: 425px )
+            width: 100%
         .prev-slaid
             display: flex
             justify-content: center
@@ -281,6 +283,22 @@ svg
         visibility: visible
         margin-top: 3vh
         padding-left: 1em
+#carousel
+    @media screen and ( max-width: 425px )
+        width: 100%
+        box-shadow: none
+        padding: 5px
+        // .flip-items
+        //     width: 95%
+        // img
+        //     width: 95%
+        //     box-shadow: none
+        // li
+        //     min-width: 100%!important
+        // .flipster__item 
+        //     margin-right: 0!important
+        //     .flipster__item__content
+        //         width: 100%!important
 .product-content
     margin-top: 3vh
     display: flex
@@ -310,9 +328,11 @@ svg
     .product-content-img
         width: 48%
         display: flex
-        img
-            width: 100%
-            max-height: 600px
+        .video
+            margin: 0 auto
+            @media screen and ( max-width: 425px )
+                video
+                    width: 100%
         @media screen and ( max-width: 768px )
             width: 100%
             margin-bottom: 5vh
@@ -321,6 +341,7 @@ svg
     visibility: visible
     @media screen and ( max-width: 768px )
         visibility: hidden
+        margin-top: -2em
 //contact
 main
     .title-contact
