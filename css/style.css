@@ -34,6 +34,15 @@ body {
   background-color: #dfdfdf;
 }
 
+body .fa {
+  font-size: 18px;
+}
+
+body .fa a {
+  padding-left: 5px;
+  color: #212529 !important;
+}
+
 body header {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -76,15 +85,15 @@ body header .header-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: auto;
+  width: 80%;
 }
 
 body header .header-text p {
-  width: 100%;
+  width: 47%;
   padding: 0;
   margin-bottom: 0;
 }
@@ -97,6 +106,24 @@ body header .header-text h1 {
   body header .header-text h1 {
     font-size: 1.5em;
   }
+}
+
+body header .header-text .header-right-text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header .header-text .header-right-text p {
+  width: 100%;
+  text-align: right;
 }
 
 body header .main-nav {
@@ -666,7 +693,7 @@ main .info-contact h3 {
 
 main .info-contact .info-contact-cart {
   padding: 5px;
-  width: 47%;
+  width: 100%;
 }
 
 @media screen and (max-width: 425px) {
