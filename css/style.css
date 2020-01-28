@@ -558,6 +558,14 @@ svg {
   }
 }
 
+.title-product-content .group-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 @media screen and (max-width: 425px) {
   #carousel {
     width: 100%;
@@ -598,7 +606,7 @@ svg {
   }
 }
 
-.product-content .product-content-text .group-btn {
+.group-btn {
   margin-top: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -607,21 +615,22 @@ svg {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 100%;
 }
 
-.product-content .product-content-text .group-btn button {
+.group-btn button {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
 
 @media screen and (max-width: 425px) {
-  .product-content .product-content-text .group-btn button button {
+  .group-btn button button {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .product-content {
+  .group-btn {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -629,28 +638,58 @@ svg {
   }
 }
 
-.product-content .product-content-img {
+.product-content-img {
   width: 48%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.product-content .product-content-img .video {
+.product-content-img .video {
   margin: 0 auto;
 }
 
 @media screen and (max-width: 425px) {
-  .product-content .product-content-img .video video {
+  .product-content-img .video video {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .product-content .product-content-img {
+  .product-content-img {
     width: 100%;
     margin-bottom: 5vh;
   }
+}
+
+.product-content-img h3 {
+  width: 100%;
+}
+
+.partner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.partner h5 {
+  width: 100%;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+.partner img {
+  display: block;
 }
 
 .title-hid {
@@ -811,5 +850,19 @@ main .productions-slider .single-slide img {
     padding: 10px;
     width: 100%;
   }
+}
+
+main .quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+}
+
+main .quality img {
+  display: block;
+  max-width: 25%;
+  margin-right: 30px;
 }
 /*# sourceMappingURL=style.css.map */
