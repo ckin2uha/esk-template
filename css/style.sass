@@ -297,12 +297,20 @@ svg
         visibility: visible
         margin-top: 3vh
         padding-left: 1em
-    .group-card
-        display: flex
-        flex-wrap: wrap
+.group-card
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    .card-product
+        border: 1px solid #b4b4b4
+        margin-top: 3vh
+        width: 230px
+        img
+            width: 100%
+        p
+            padding: 1.5vh 7px 0px 7px
+            text-align: center
 
-        .card
-        
 #carousel
     @media screen and ( max-width: 425px )
         width: 100%
@@ -326,7 +334,7 @@ svg
     flex-wrap: wrap
     padding: 1em
     .product-content-text
-        width: 48%
+        width: 60%
         text-align: justify
         display: flex
         flex-direction: column
@@ -347,9 +355,10 @@ svg
     @media screen and ( max-width: 768px  )
         flex-direction: column-reverse
 .product-content-img
-    width: 48%
+    width: 35%
     display: flex
     flex-wrap: wrap
+    align-items: center
     .video
         margin: 0 auto
         @media screen and ( max-width: 425px )
@@ -360,6 +369,8 @@ svg
         margin-bottom: 5vh
     h3
         width: 100%
+    ul
+        list-style-type: square
 .partner
     display: flex
     flex-wrap: wrap
@@ -464,6 +475,7 @@ main
     .quality
         display: flex
         flex-wrap: no-wrap
+        align-items: center
         img
             display: block
             max-width: 25%
